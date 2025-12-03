@@ -108,7 +108,7 @@ if conv_id:
                 try: 
                     response = client.chat.completions.create(
                         # model méta
-                        model = "llama3-70b-8192",
+                        model = "llama-3.1-8b-instant",
                         # model google
                         # model= "gemma2-9b-it",
                         messages = messages,
